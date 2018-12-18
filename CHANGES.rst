@@ -5,7 +5,11 @@ New Features
 ------------
 - Added a new coordinate frame for great circle coordinate systems defined by a
   pole and longitude zero point.
-
+- Added support for compiling with or without GSL.
+- Added a new ``PowerLawCutoffPotential`` class for a power-law density
+  distribution with an exponential cutoff.
+- Added an implementation of the ``MWPotential2014`` from ``galpy`` (called
+  ``BovyMWPotential2014`` in ``gala``).
 
 Bug fixes
 ---------
